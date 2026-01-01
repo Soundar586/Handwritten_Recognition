@@ -1,6 +1,6 @@
 # ✍️ Handwritten Digit Recognition System using Deep Learning
 
-## 📌 Overview
+## Overview
 This project implements a deep learning–based handwritten digit recognition system using a Convolutional Neural Network (CNN).  
 The system accurately recognizes handwritten digits (0–9) from images by learning visual patterns from the MNIST dataset and applying robust preprocessing techniques to handle real-world handwritten inputs.
 
@@ -8,7 +8,7 @@ An interactive web interface is provided using Streamlit for easy image upload a
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Recognize handwritten digits using a CNN
 - Achieve high classification accuracy on unseen data
 - Handle real-world handwritten images through proper preprocessing
@@ -26,7 +26,7 @@ An interactive web interface is provided using Streamlit for easy image upload a
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 Input Image
 
@@ -51,23 +51,23 @@ Predicted Digit + Confidence
 
 ---
 
-## ⚙️ Key Features
-- ✅ CNN-based handwritten digit classification  
-- ✅ MNIST-trained model with ~99% test accuracy  
-- ✅ Robust preprocessing to handle real handwritten images  
-- ✅ Image centering and normalization (MNIST-style)  
-- ✅ Confidence score for each prediction  
-- ✅ Interactive Streamlit web application  
+## Key Features
+-  CNN-based handwritten digit classification  
+-  MNIST-trained model with ~99% test accuracy  
+-  Robust preprocessing to handle real handwritten images  
+-  Image centering and normalization (MNIST-style)  
+-  Confidence score for each prediction  
+-  Interactive Streamlit web application  
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 - **Test Accuracy:** ~99% on MNIST test dataset
 - The model generalizes well after aligning inference preprocessing with training data distribution.
 
 ---
 
-## 🧩 Image Preprocessing Strategy
+##  Image Preprocessing Strategy
 To ensure correct predictions for real-world images, the following preprocessing steps are applied:
 
 1. Convert image to grayscale  
@@ -84,7 +84,7 @@ This alignment significantly improves prediction accuracy on user-uploaded image
 
 ---
 
-## 🧪 How to Run the Project
+##  How to Run the Project
 
 ### Install Dependencies
 ```bash
